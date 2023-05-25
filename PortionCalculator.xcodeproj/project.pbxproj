@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47AF36CD2A1F1D9100998158 /* CalculatorView.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF36CC2A1F1D9100998158 /* CalculatorView.png */; };
+		47AF36CF2A1F1DAE00998158 /* TotalView.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF36CE2A1F1DAE00998158 /* TotalView.png */; };
 		47E82BD52A035721004BA775 /* PortionCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E82BD42A035721004BA775 /* PortionCalculatorApp.swift */; };
 		47E82BD72A035721004BA775 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E82BD62A035721004BA775 /* ContentView.swift */; };
 		47E82BD92A035724004BA775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E82BD82A035724004BA775 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47AF36CC2A1F1D9100998158 /* CalculatorView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalculatorView.png; sourceTree = "<group>"; };
+		47AF36CE2A1F1DAE00998158 /* TotalView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TotalView.png; sourceTree = "<group>"; };
 		47E82BD12A035721004BA775 /* PortionCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortionCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E82BD42A035721004BA775 /* PortionCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortionCalculatorApp.swift; sourceTree = "<group>"; };
 		47E82BD62A035721004BA775 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47AF36CB2A1F1D7200998158 /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				47AF36CC2A1F1D9100998158 /* CalculatorView.png */,
+				47AF36CE2A1F1DAE00998158 /* TotalView.png */,
+			);
+			path = ScreenShots;
+			sourceTree = "<group>";
+		};
 		47E82BC82A035721004BA775 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 				47E82BD42A035721004BA775 /* PortionCalculatorApp.swift */,
 				47E82BD62A035721004BA775 /* ContentView.swift */,
 				47E82BE22A04ACE9004BA775 /* totalsView.swift */,
+				47AF36CB2A1F1D7200998158 /* ScreenShots */,
 				47E82BD82A035724004BA775 /* Assets.xcassets */,
 				47E82BDA2A035724004BA775 /* Preview Content */,
 			);
@@ -128,7 +142,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47AF36CF2A1F1DAE00998158 /* TotalView.png in Resources */,
 				47E82BDC2A035724004BA775 /* Preview Assets.xcassets in Resources */,
+				47AF36CD2A1F1D9100998158 /* CalculatorView.png in Resources */,
 				47E82BD92A035724004BA775 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
